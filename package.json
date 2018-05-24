@@ -6,11 +6,14 @@
   "scripts": {
     "build": "rimraf ./dist && webpack --config ./webpack.config.js"
   },
-  "author": "Dave Dane Pacilan <davedanepacilan3p@gmail.com>",
+  "author": {
+    "name": "prismprince",
+    "email": "davedanepacilan3p@gmail.com"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrismPrince/vue-emoji"
+    "url": "git+https://github.com/PrismPrince/vue-emoji.git"
   },
   "devDependencies": {
     "babel-core": "^6.10.4",
