@@ -32,7 +32,7 @@ module.exports = [
 
   // Config 1: For browser environment
   merge(commonConfig, {
-    entry: path.resolve(__dirname + '/src/plugin.js'),
+    entry: path.resolve(__dirname + '/src/index.js'),
     output: {
       filename: 'vue-emoji.min.js',
       libraryTarget: 'window',
